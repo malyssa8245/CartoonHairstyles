@@ -6,4 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".LevelPage">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="82dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="82dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
