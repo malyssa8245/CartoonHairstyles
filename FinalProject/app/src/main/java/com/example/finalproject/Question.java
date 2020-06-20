@@ -11,6 +11,9 @@ public class Question {
     private String answer7;
     private String answer8;
 
+    public Question(String s) {
+    }
+
 
     public String getQuestion() {
         return question;
@@ -109,6 +112,11 @@ public class Question {
     public void setAnswer8(String answer8) {
         this.answer8 = answer8;
     }
+
+    public void askit() {
+        this.answer1 = "Pediatrician";
+    }
 }
+
 
 
