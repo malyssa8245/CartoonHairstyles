@@ -6,9 +6,13 @@ import android.os.Bundle;
 
 public class TotalDramaQuiz extends AppCompatActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_total_drama_quiz);
     }
+
+
+
 }

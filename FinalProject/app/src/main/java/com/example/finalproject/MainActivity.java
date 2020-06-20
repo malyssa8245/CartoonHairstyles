@@ -29,11 +29,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
 public void goToLevelPage(){
-
         Intent i = new Intent(this,LevelPage.class);
         startActivity(i);
 }
 
 
 }
-//this a testing comment catherine //
