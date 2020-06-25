@@ -10,8 +10,12 @@ public class Question {
     private String answer6;
     private String answer7;
     private String answer8;
+    private int Score = 0;
 
     public Question(String s) {
+    }
+
+    public static void getText() {
     }
 
 
@@ -113,9 +117,15 @@ public class Question {
         this.answer8 = answer8;
     }
 
-    public void askit() {
-        this.answer1 = "Pediatrician";
+    public int getScore() {
+        return Score;
     }
+
+    public void setScore(int score) {
+        Score = score;
+    }
+
+
 }
 
 
