@@ -12,8 +12,7 @@ import android.widget.ImageView;
 
 
 public class LevelPage extends AppCompatActivity {
-ImageView Atime;
-ImageView Tdrama;
+
 
 
     Button adventuretime;
@@ -41,6 +40,14 @@ ImageView Tdrama;
 
 
 
+         });
+
+
+
+
+        
+
+
         Atime.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View ) {
@@ -59,8 +66,6 @@ ImageView Tdrama;
 
 
 }
-
-    }
 
 
 
