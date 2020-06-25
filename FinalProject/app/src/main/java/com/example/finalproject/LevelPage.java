@@ -23,30 +23,31 @@ ImageView Tdrama;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_level_page);
 
+        Atime = findViewById(R.id.Atime);
+        Tdrama = findViewById(R.id.Tdrama);
+
+        
+        Tdrama.setImageResource(R.drawable.total);
+
+
         adventuretime = findViewById(R.id.adventuretime);
         adventuretime.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View view) {
                 goToAdventureTimeQuiz();
             }
+        });
 
-
-         });
-        }
-
-        Atime.setImageResource(R.drawable.time);
-        Tdrama.setImageResource(R.drawable.total);
-
-     Atime = findViewById(R.id.Atime);
-     Tdrama = findViewById(R.id.Tdrama);
 
 
         Atime.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View ) {
                 goToAdventureTimeQuiz();
             }
         });
+
     }
 
 
@@ -57,10 +58,10 @@ ImageView Tdrama;
 
 
 
-}}
+}
 
     }
 
 
-}
+
 
