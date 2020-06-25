@@ -22,12 +22,22 @@ public class LevelPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_level_page);
 
+        Atime = findViewById(R.id.Atime);
+        Tdrama = findViewById(R.id.Tdrama);
+
+        
+        Tdrama.setImageResource(R.drawable.total);
+
+
         adventuretime = findViewById(R.id.adventuretime);
         adventuretime.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View view) {
                 goToAdventureTimeQuiz();
             }
+        });
+
 
 
          });
@@ -36,6 +46,15 @@ public class LevelPage extends AppCompatActivity {
 
 
         
+
+
+        Atime.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View ) {
+                goToAdventureTimeQuiz();
+            }
+        });
+
     }
 
 
@@ -46,9 +65,7 @@ public class LevelPage extends AppCompatActivity {
 
 
 
-}}
-
-
+}
 
 
 
