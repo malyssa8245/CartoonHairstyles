@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import android.view.View.OnClickListener;
 import android.widget.Button;
 
 import android.widget.ImageView;
@@ -15,6 +16,8 @@ public class LevelPage extends AppCompatActivity {
 
 
     Button adventuretime;
+   ImageView  Tdrama;
+   ImageView Atime;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,7 +32,8 @@ public class LevelPage extends AppCompatActivity {
 
 
         adventuretime = findViewById(R.id.adventuretime);
-        adventuretime.setOnClickListener(new View.OnClickListener() {
+        adventuretime.setOnClickListener(new OnClickListener() {
+
 
             @Override
             public void onClick(View view) {
@@ -37,35 +41,18 @@ public class LevelPage extends AppCompatActivity {
             }
         });
 
-
-
-         });
-
-
-
-
-        
-
-
-        Atime.setOnClickListener(new View.OnClickListener() {
+        Atime.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View ) {
-                goToAdventureTimeQuiz();
-            }
-        });
+            public void onClick(View v) {
 
+            }
+
+        });
     }
 
 
-    public void goToAdventureTimeQuiz(){
+    public void goToAdventureTimeQuiz() {
 
-        Intent i = new Intent(this,AdventureTimeQuiz.class);
+        Intent i = new Intent(this, AdventureTimeQuiz.class);
         startActivity(i);
-
-
-
-}
-
-
-
-
+    }}

@@ -12,7 +12,7 @@ public class Question {
     private String answer8;
     private int Score = 0;
 
-    public Question(String s) {
+    public Question(String s3, String s2, String s1, String s) {
     }
 
     public static void getText() {
